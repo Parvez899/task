@@ -54,10 +54,6 @@ $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
 
-$route['login']='Home/login';
+
 $route['register']='Home/register';
-$route['schools']='Home/get_schools';
-$route['schools/create']='Home/add_school';
-$route['schools/edit/(:num)']='Home/edit_school/$1';
-$route['schools/delete']='Home/delete_school';
-$route['logout']='Home/logout';
+$route['get-profile/(:num)']='Home/get_profile/$1';
